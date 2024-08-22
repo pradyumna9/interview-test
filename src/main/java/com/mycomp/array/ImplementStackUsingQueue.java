@@ -1,6 +1,7 @@
 package com.mycomp.array;
 
 import java.util.ArrayDeque;
+import java.util.Map;
 import java.util.Queue;
 
 public class ImplementStackUsingQueue {
@@ -13,7 +14,7 @@ public class ImplementStackUsingQueue {
 
     public void push(int x) {
        queue.offer(x);
-       for(int i=0;i< queue.size()-1;i++)
+        for(int i=0;i< queue.size()-1;i++)
            queue.offer(queue.poll());
     }
 
