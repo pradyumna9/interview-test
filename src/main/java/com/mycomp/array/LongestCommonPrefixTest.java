@@ -1,6 +1,5 @@
 package com.mycomp.array;
 
-import com.sun.deploy.util.StringUtils;
 
 import java.util.Arrays;
 

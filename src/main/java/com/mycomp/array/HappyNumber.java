@@ -27,7 +27,7 @@ public class HappyNumber {
 class HappyNumberTest{
     public static void main(String[] args) {
         HappyNumber happyNumber = new HappyNumber();
-        happyNumber.isHappy(12);
+        happyNumber.isHappy(19);
 
     }
 }
